@@ -313,7 +313,7 @@ html, body {
 .main .first__block .first__img {
   width: 100%;
   height: 288px;
-  background-image: url("/project/src/img/main-original.png");
+  background-image: url("../img/main-original.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -405,7 +405,7 @@ html, body {
 .main .second__block .sliderNarrow__container .slider .slides .slide .content__img {
   width: 100%;
   height: 169px;
-  background-image: url("/project/src/img/slider_1.jpg");
+  background-image: url("../img/slider_1.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -592,7 +592,7 @@ html, body {
 .main .second__block .sliderNarrow__container .slider .slider__arrows .buttons #prev {
   width: 34px;
   height: 34px;
-  background-image: url(/project/src/img/left-original.png);
+  background-image: url('../img/left-original.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -600,16 +600,16 @@ html, body {
 .main .second__block .sliderNarrow__container .slider .slider__arrows .buttons #next {
   width: 34px;
   height: 34px;
-  background-image: url(/project/src/img/right-original.png);
+  background-image: url('../img/right-original.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
 }
 .main .second__block .sliderNarrow__container .slider .slider__arrows .buttons #next:hover {
-  background-image: url(/project/src/img/right_hiver-original.png);
+  background-image: url('../img/right_hiver-original.png');
 }
 .main .second__block .sliderNarrow__container .slider .slider__arrows .buttons #prev:hover {
-  background-image: url(/project/src/img/left_hover-original.png);
+  background-image: url('../img/left_hover-original.png');
 }
 .main .second__block .sliderNarrow__container .slider .slider__arrows .buttons .text {
   width: 29px;
@@ -677,7 +677,7 @@ html, body {
 .footer .footer__container .footer__head .head__links .link__inst {
   width: 23px;
   height: 23px;
-  background-image: url("/project/src/img/Instagram-original.png");
+  background-image: url("../img/Instagram-original.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -685,7 +685,7 @@ html, body {
 .footer .footer__container .footer__head .head__links .link__wu {
   width: 23px;
   height: 23px;
-  background-image: url("/project/src/img/whatsUp-original.png");
+  background-image: url("../img/whatsUp-original.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -693,7 +693,7 @@ html, body {
 .footer .footer__container .footer__head .head__links .link__tg {
   width: 23px;
   height: 23px;
-  background-image: url("/project/src/img/tg-original.png");
+  background-image: url("../img/tg-original.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
