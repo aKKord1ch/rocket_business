@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <link rel="stylesheet" href="/project/src/style/style.css">
+
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=PT+Sans+Caption:wght@400;700&display=swap" rel="stylesheet">
+
+<!--    <link
+   rel="stylesheet"
+   href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+   />
+
+   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script> -->
+
+   <title>Document</title>
+
+   <script defer src="/project/src/js/script-dist.js"></script>
+</head>
+<body>
+   <div class="wrapper">
+      <div class="menu disabled">
+         <div class="menu__main">
+            <ul class="menu__list">
+               <li>О клинике</li>
+               <li>Услуги</li>
+               <li>Специалисты</li>
+               <li>Цены</li>
+               <li>Контакты</li>
+            </ul>
+            <div class="menu__button"><span>Записаться на прием</span></div>
+         </div>
+      </div>
+
+      <header class="header">
+         <div class="header_mobile__container">
+            <div class="header__burger" onclick="toggleMenu()">
+               <div class="tripple">
+                  <div class="block"></div>
+                  <div class="block"></div>
+                  <div class="block"></div>
+               </div>
+            </div>
+            <div class="header__logo"><span>LOGO</span></div>
+            <div class="header__contacts">
+               <div class="contacts_phone">+7(863) 000 00 00</div>
+               <div class="contacts_adress">Ростов-на-Дону</div>
+            </div>
+         </div>
+         <div class="header_pc__top_container">
+            <div class="header__content">
+               <div class="logo_adress">
+                  <div class="logo"><span>LOGO</span></div>
+                  <div class="adress">
+                     <div class="top"><img src="/project/src/img/marker-original.png" alt=""><img src="/project/src/img/marker2-original.png" alt="" class="marker"> Ростов-на-Дону</div>
+                     <div class="bottom">ул. Ленина, 2Б</div>
+                  </div>
+               </div>
+               <div class="number_button">
+                  <div class="number"><img src="/project/src/img/whatsUp-original.png" alt="" class="number_wu"><span>+7(863) 000 00 00</span></div>
+                  <div class="button"><span>Записаться на прием</span></div>
+               </div>
+            </div>
+         </div>
+         <div class="header_pc__menu">
+            <div class="pc_menu">
+               <ul>
+                  <li><span>О клинике</span></li>
+                  <li><span>Услуги</span></li>
+                  <li><span>Специалисты</span></li>
+                  <li><span>Цены</span></li>
+                  <li><span>Контакты</span></li>
+               </ul>
+            </div>
+         </div>
+      </header>
+
+      <main class="main">
+         <div class="first__block">
+            <div class="first__img"></div>
+            <div class="first__descr">
+               <div class="descr__container">
+                  <span class="first__descr__title">Многопрофильная клиника для детей<br/> и взрослых</span>
+                  <span class="first__descr__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+                  </span>
+               </div>
+            </div>
+         </div>
+         <div class="second__block">
+            <div class="sliderNarrow__container">
+               <div class="slider">
+                  <div class="slides">
+                     <div class="slide">
+                        <div class="content__img"></div>
+                        <div class="content__descr">
+                           <div class="descr__container">
+                              <div class="title_text">
+                                 <span class="content__descr__title">Check-UP</span>
+                                 <span class="content__descr__subtitle">для мужчин</span>
+                              </div>
+                              <ul class="content__descr__list">
+                                 <li>Гормональный скрининг</li>
+                                 <li>Тестостерон</li>
+                                 <li>Свободный тестостерон</li>
+                                 <li>Глобулин, связывающий половые гормоны</li>
+                              </ul>
+                              <div class="content__descr__price">
+                                 <span class="current_price">Всего 2800₽</span>
+                                 <span class="last_price">3500₽</span>
+                              </div>
+                           </div>
+                           <div class="content__descr__buttons">
+                              <div class="button__first"><span>Записаться</span></div>
+                              <div class="button__sec"><span>Подробнее</span></div>
+                           </div>
+                        </div>
+                        <div class="rect"></div>
+                     </div>
+                     <div class="slide">
+                        <div class="content__img"></div>
+                        <div class="content__descr">
+                           <div class="descr__container">
+                              <div class="title_text">
+                                 <span class="content__descr__title">Check-UP</span>
+                                 <span class="content__descr__subtitle">для мужчин</span>
+                              </div>
+                              <ul class="content__descr__list">
+                                 <li>Гормональный скрининг</li>
+                                 <li>Тестостерон</li>
+                                 <li>Свободный тестостерон</li>
+                                 <li>Глобулин, связывающий половые гормоны</li>
+                              </ul>
+                              <div class="content__descr__price">
+                                 <span class="current_price">Всего 2800₽</span>
+                                 <span class="last_price">3500₽</span>
+                              </div>
+                           </div>
+                           <div class="content__descr__buttons">
+                              <div class="button__first"><span>Записаться</span></div>
+                              <div class="button__sec"><span>Подробнее</span></div>
+                           </div>
+                        </div>
+                        <div class="rect"></div>
+                     </div>
+                     <div class="slide">
+                        <div class="content__img"></div>
+                        <div class="content__descr">
+                           <div class="descr__container">
+                              <div class="title_text">
+                                 <span class="content__descr__title">Check-UP</span>
+                                 <span class="content__descr__subtitle">для мужчин</span>
+                              </div>
+                              <ul class="content__descr__list">
+                                 <li>Гормональный скрининг</li>
+                                 <li>Тестостерон</li>
+                                 <li>Свободный тестостерон</li>
+                                 <li>Глобулин, связывающий половые гормоны</li>
+                              </ul>
+                              <div class="content__descr__price">
+                                 <span class="current_price">Всего 2800₽</span>
+                                 <span class="last_price">3500₽</span>
+                              </div>
+                           </div>
+                           <div class="content__descr__buttons">
+                              <div class="button__first"><span>Записаться</span></div>
+                              <div class="button__sec"><span>Подробнее</span></div>
+                           </div>
+                        </div>
+                        <div class="rect"></div>
+                     </div>
+                     <div class="slide">
+                        <div class="content__img"></div>
+                        <div class="content__descr">
+                           <div class="descr__container">
+                              <div class="title_text">
+                                 <span class="content__descr__title">Check-UP</span>
+                                 <span class="content__descr__subtitle">для мужчин</span>
+                              </div>
+                              <ul class="content__descr__list">
+                                 <li>Гормональный скрининг</li>
+                                 <li>Тестостерон</li>
+                                 <li>Свободный тестостерон</li>
+                                 <li>Глобулин, связывающий половые гормоны</li>
+                              </ul>
+                              <div class="content__descr__price">
+                                 <span class="current_price">Всего 2800₽</span>
+                                 <span class="last_price">3500₽</span>
+                              </div>
+                           </div>
+                           <div class="content__descr__buttons">
+                              <div class="button__first"><span>Записаться</span></div>
+                              <div class="button__sec"><span>Подробнее</span></div>
+                           </div>
+                        </div>
+                        <div class="rect"></div>
+                     </div>
+                  </div>
+                  <div class="slider__arrows">
+                     <div class="buttons">
+                        <button id="prev"></button>
+                        <div class="text"><span class="count"><span class="current">1</span><span class="length">/4</span></span></div>
+                        <button id="next"></button>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </main>
+
+      <footer class="footer">
+         <div class="footer__container">
+            <div class="footer__head">
+               <div class="head__logo"><span>LOGO</span></div>
+               <div class="footer__main_pc">
+                  <ul class="footer__list">
+                     <li>О клинике</li>
+                     <li>Услуги</li>
+                     <li>Специалисты</li>
+                     <li>Цены</li>
+                     <li>Контакты</li>
+                  </ul>
+               </div>
+               <div class="head__links">
+                  <div class="link__inst"></div>
+                  <div class="link__wu"></div>
+                  <div class="link__tg"></div>
+               </div>
+            </div>
+            <div class="footer__main">
+               <ul class="footer__list">
+                  <li>О клинике</li>
+                  <li>Услуги</li>
+                  <li>Специалисты</li>
+                  <li>Цены</li>
+                  <li>Контакты</li>
+               </ul>
+            </div>
+         </div>
+      </footer>
+
+      <div class="popup-form">
+         <button class="close-btn">Закрыть</button>
+         <form action="/project/src/php/send_email.php" method="post">
+             <label for="name">Имя:</label>
+             <input type="text" name="name" id="name" required>
+             
+             <label for="email">Email:</label>
+             <input type="email" name="email" id="email" required>
+             
+             <label for="message">Сообщение:</label>
+             <textarea name="message" id="message" required></textarea>
+             
+             <input type="submit" value="Отправить">
+         </form>
+     </div>
+   </div>
+</body>
+</html>
